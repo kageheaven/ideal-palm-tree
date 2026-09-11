@@ -2,6 +2,7 @@ package com.plgame.engine
 
 import com.plgame.entities.*
 import com.plgame.items.CraftingSystem
+import com.plgame.items.GameItem
 import kotlinx.coroutines.*
 
 class GameLoop(

@@ -23,7 +23,7 @@ class CraftingSystem {
     private val allRecipes: List<CraftRecipe> = listOf(
         // Good items
         CraftRecipe("Копать за Силу", "Создаёт Амулет Силы", mapOf("token" to 1), GameItem.StrengthAmulet(100f, ItemRarity.UNCOMMON), 0.8f),
-        CraftRecipe("Ковать за Ловкость", "Создаёт Амулет Ловкости", mapOf("token" to 1), GameItem.AgilityAmulet(12f, ItemRarity.UNCOMMON), 0.75f),
+        CraftRecipe("Ковать за Ловкость", "Создаёт Амулет Ловкости", mapOf("token" to 1), GameItem.AgilityAmulet(12f, 12f, ItemRarity.UNCOMMON), 0.75f),
         CraftRecipe("Сапоги", "Создаёт Сапоги Скорости", mapOf("token" to 1), GameItem.BootsOfSpeed(40f, ItemRarity.UNCOMMON), 0.7f),
         CraftRecipe("Щит Бедняка", "Создаёт щит", mapOf("token" to 1), GameItem.PoorMansShield(3f, ItemRarity.UNCOMMON), 0.8f),
 
