@@ -85,7 +85,7 @@ fun GameRenderer(
             // Shadow
             drawOval(
                 Color.Black.copy(alpha = 0.3f),
-                center = Offset(sx, sy + enemy.size * 0.8f),
+                topLeft = Offset(sx - enemy.size * 0.6f, sy + enemy.size * 0.6f),
                 size = Size(enemy.size * 1.2f, enemy.size * 0.4f)
             )
 
@@ -137,7 +137,7 @@ fun GameRenderer(
         // Player shadow
         drawOval(
             Color.Black.copy(alpha = 0.4f),
-            center = Offset(px, py + 20f),
+            topLeft = Offset(px - 20f, py + 14f),
             size = Size(40f, 12f)
         )
 
