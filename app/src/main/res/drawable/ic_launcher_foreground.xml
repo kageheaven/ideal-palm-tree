@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- spear shaft -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,32 L59,32 L59,76 L53,76 Z" />
+    <!-- spear tip -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M56,20 L48,34 L64,34 Z" />
+    <!-- spear butt -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M53,76 L59,76 L59,84 L53,84 Z" />
+</vector>
